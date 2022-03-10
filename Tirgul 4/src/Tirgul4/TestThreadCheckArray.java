@@ -6,7 +6,7 @@ public class TestThreadCheckArray {
 		try (Scanner input = new Scanner(System.in)) {
 			Thread thread1, thread2;
 			System.out.println("Enter array size");
-			int num  = input.nextInt();
+			int num = input.nextInt();
 			int [] array = new int[num];
 			System.out.println("Enter numbers for array");
 			

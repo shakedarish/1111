@@ -9,7 +9,7 @@ public class SharedData
 	
 	public SharedData(int[] array, int b) {
 		
-		this.array = array;
+		this.array=array;
 		this.b = b;
 	}
 
