@@ -10,7 +10,7 @@ public class SharedData
 	public SharedData(int[] array, int b) {
 		
 		this.array = array;
-		this.b=b;
+		this.b = b;
 	}
 
 	public boolean[] getWinArray() 
