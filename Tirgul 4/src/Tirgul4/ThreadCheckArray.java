@@ -13,7 +13,7 @@ public class ThreadCheckArray implements Runnable
 		synchronized (sd) 
 		{
 			array= sd.getArray();
-			b = sd.getB();
+			b= sd.getB();
 		}		
 		winArray = new boolean[array.length];
 	}
